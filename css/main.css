@@ -27,6 +27,7 @@ section {
 .cards {
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
   margin: 0;
   padding: 1.5rem;
 }
@@ -52,6 +53,7 @@ section {
 .cards p {
   font-size: 1rem;
   margin: 0 0 1.5rem;
+  flex-grow: 1;
 }
 
 .cards .btn {
