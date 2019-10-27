@@ -26,7 +26,7 @@ section {
 
 .cards {
   display: flex;
-  justify: space-between;
+  justify-content: space-between;
   margin: 0;
   padding: 1.5rem;
 }
