@@ -47,6 +47,7 @@ img {
 .cards h3 {
   font-size: .875rem;
   font-style: italic;
+  font-weight: normal;
   margin: 0;
 }
 
