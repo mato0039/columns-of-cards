@@ -35,8 +35,7 @@ section {
 img {
   display: block;
   text-align: center;
-  margin: 0 auto 1.5rem;
-  width: 100px;
+  width: 100%;
 }
 
 .cards h2 {
@@ -77,27 +76,51 @@ img {
 .card-1 {
   background-color: #e2e2e2;
   border-left: 1px solid #000;
+  flex-direction: column;
   padding: .75rem;
   width: 25%;
+}
+
+.card-1 img {
+  margin: 0 auto 1.5rem;
+  width: 100px;
 }
 
 .card-2 {
   background-color: #ccc;
   border-left: 1px solid #000;
+  flex-direction: column;
   padding: .75rem;
   width: 25%;
+}
+
+.card-2 img {
+  margin: 0 auto 1.5rem;
+  width: 100px;
 }
 
 .card-3 {
   background-color: #aaa;
   border-left: 1px solid #000;
+  flex-direction: column;
   padding: .75rem;
   width: 25%;
+}
+
+.card-3 img {
+  margin: 0 auto 1.5rem;
+  width: 100px;
 }
 
 .card-4 {
   background-color: #999;
   border-left: 1px solid #000;
+  flex-direction: column;
   padding: .75rem;
   width: 25%;
+}
+
+.card-4 img {
+  margin: 0 auto 1.5rem;
+  width: 100px;
 }
